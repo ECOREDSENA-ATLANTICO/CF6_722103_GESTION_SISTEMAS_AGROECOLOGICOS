@@ -3,19 +3,19 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    p Con el diagrama de actividades se termina la descripción de las tres técnicas usadas para la especificación y el análisis de requisitos, como se pudo analizar cada una de las técnicas nos brinda características para lograr representar gráficamente y de una forma clara, los requisitos que un usuario necesita poder cumplir satisfactoriamente con las solicitudes de los clientes y usuarios, por otro lado se pueden usar todas las técnicas en una especificación y análisis de requisitos si se ve la necesidad.
-    p.mb-5 A continuación, se muestra un mapa conceptual con los elementos más importantes desarrollados en este componente.
-
+    p Las plantas siempre están a nuestro alrededor y son fundamentales en nuestra vida, por tanto, no deben ser apreciadas como simples elementos decorativos, sino que deben ser valoradas por su importancia y contribución al desarrollo de la vida y existencia. Estás cumplen un ciclo de vida y al igual que los demás seres vivos realizan consecutivamente una serie de procesos y estados, los cuales desde el punto de vista fisiológico se pueden identificar y son comúnmente conocidos como fase juvenil, maduro o adulto y senescente, es decir atraviesan un proceso de crecimiento y desarrollo vegetativo, donde forman su estructura (raíz, tallo, hojas, flores, semillas y fruto), las cuales son necesarias y cumplen una función específica.
+    p Es importante conocer y analizar la fisiología y morfología de las plantas, para así determinar cómo realizar el manejo cultural, esta serie de labores y actividades que se llevan a cabo desde la siembra hasta la cosecha de los cultivos, con el fin de proporcionar las condiciones y requerimientos necesarios para un adecuado crecimiento de las plantas, ya que están enfocadas en el cuidado y mantenimiento de la producción. Entre las principales labores de manejo cultural están las enfocadas a dar soporte y formación de las plantas como son tutorado, poda, raleo, aporque; las dirigidas a evitar la competencia por nutrientes, agua, luz, espacio, como son el manejo de arvenses; las encaminadas a satisfacer necesidades hídricas como las actividades de riego y drenaje; las de aplicación y regulación de nutrientes; y las labores de control para evitar enfermedades, disminución o pérdida de los cultivos, como son embolsado de frutos, manejo ecológico de plagas y enfermedades. 
+    p.mb-5 Así pues, un resumen de lo visto en el presente componente podrá ser visualizado en el siguiente mapa conceptual:
     .row.justify-content-center
-      .col-lg-10.mb-5
+      .col-12.mb-5
         figure
           img(src="@/assets/curso/temas/sintesis.svg", alt="alt")
       .col-auto
-        a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+        a.anexo.mb-4(:href="obtenerLink('/downloads/anexo1.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
-            p Anexo. Síntesis
+            p Síntesis
 
 </template>
 

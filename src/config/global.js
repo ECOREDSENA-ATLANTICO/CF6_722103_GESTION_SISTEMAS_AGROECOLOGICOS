@@ -1,9 +1,11 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
+    componenteFormativo:
+      'Planificación del manejo cultural en el agroecosistema',
+    descripcionCurso:
+      'En este componente formativo se abordan temáticas relacionadas las diferentes prácticas de manejo cultural que se llevan a cabo en los cultivos, para lo cual es necesario conocer la fisiología de las plantas, su arquitectura, el desarrollo vegetativo y reproductivo; además de técnicas, métodos, herramientas, equipos y utensilios requeridos.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
+    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.svg'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
@@ -32,14 +34,26 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Fisiología vegetal',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Desarrollo vegetativo',
             hash: 't_1_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.2',
+            titulo: 'Arquitectura de la planta',
+            hash: 't_1_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.3',
+            titulo: 'Floración y fructificación',
+            hash: 't_1_3',
           },
         ],
       },
@@ -48,15 +62,43 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Arvenses',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.1',
+            titulo: 'Rol ecológico',
+            hash: 't_2_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.2',
+            titulo: 'Clasificación',
+            hash: 't_2_2',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Manejo cultural',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.1',
+            titulo: 'Técnicas y métodos',
+            hash: 't_3_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.2',
+            titulo: 'Equipos y herramientas',
+            hash: 't_3_2',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -101,32 +143,152 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Fisiología vegetal',
+      referencia:
+        'Azcón, J., y Talón, M. (2008). <em>Fundamentos de fisiología vegetal (No. 581.1)</em>. McGraw-Hill Interamericana.',
+      tipo: 'Libro',
+      link:
+        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/50269/',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Arvenses',
+      referencia:
+        'Labrada, R., Caseley, J. C., & Parker, C. (1996). <em>Manejo de malezas para países en desarrollo (Vol. 120)</em>. Food & Agriculture Org.',
+      tipo: 'Capítulo 1. Libro',
+      link: 'https://www.fao.org/3/T1147S/t1147s00.htm#Contents',
+    },
+    {
+      tema: 'Manejo Cultural',
+      referencia:
+        'Rivera Rodriguez, M., (2105). <em>Labores Culturales. Guía para mantener un huerto orgánico y saludable</em>. Fundación alternativa.',
+      tipo: 'Capítulo 1. Libro',
+      link:
+        'https://alternativascc.org/wp-content/uploads/2018/05/labores-culturales_web-1.pdf',
+    },
+    {
+      tema: 'Manejo Cultural',
+      referencia:
+        'González Durán, E. D. (2015). <em>Operaciones culturales, recolección, almacenamiento y envasado de productos (UF0162)</em>. Antequera, Málaga, Spain: IC Editorial.',
+      tipo: 'Capítulo 1.  Libro',
+      link:
+        'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/43819',
+    },
+    {
+      tema: 'Manejo Cultural',
+      referencia:
+        'Ángel, J. [TvAgro] (2016, 5 de agosto). <em>Labores culturales en el Cultivo de la Mora</em>. YouTube. [Video].',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=lkZy-BBVlDg',
     },
   ],
   glosario: [
     {
-      termino: '',
-      significado: '',
+      termino: 'Aporque',
+      significado:
+        'Amontonar o arrimar tierra alrededor del tallo o base de la planta.',
     },
     {
-      termino: '<em></em>',
-      significado: '',
+      termino: 'Arvense',
+      significado:
+        'Plantas conocidas comúnmente como maleza, que no tiene interés para el hombre y por tanto deben ser destruidas.',
+    },
+    {
+      termino: 'Competidor biótico',
+      significado:
+        'Organismo capaz de competir con los cultivos por los recursos del medio (luz, agua, sustrato, nutrientes y otros).',
+    },
+    {
+      termino: 'Enfermedad',
+      significado:
+        'Alteración del recurso vegetal causada por agentes de daño que pueden ser microorganismos tales como hongos, bacterias y virus.',
+    },
+    {
+      termino: 'Fisiología Vegetal',
+      significado:
+        'Ciencia que se encarga de comprender el desarrollo y comportamiento de las plantas mediante el estudio del funcionamiento, procesos y funciones vitales que se llevan a cabo a lo largo de su ciclo de vida.',
+    },
+    {
+      termino: 'Manejo Cultural',
+      significado:
+        'Serie de actividades que se llevan a cabo durante la producción (desde la siembra hasta la cosecha) de los cultivos con el fin de proporcionar las condiciones y requerimientos necesarios para un adecuado crecimiento de las plantas.',
+    },
+    {
+      termino: 'Manejo integrado de plagas y enfermedades',
+      significado:
+        'Conjunto de métodos biológicos, silviculturales, químicos y mecánicos que buscan reducir o suprimir el daño producido por el ataque de plagas y enfermedades. El manejo integrado de plagas busca integrar los distintos métodos de control, prediciendo cuando son necesarios, donde se necesitan y cuáles de ellos deben utilizarse.',
+    },
+    {
+      termino: 'Perenne',
+      significado: 'Es una planta que vive durante más de dos años.',
+    },
+    {
+      termino: 'Plaga',
+      significado:
+        'Alteración de un recurso vegetal producida por vertebrados, nematodos e insectos, que producen daños y pérdidas apreciables de producción y calidad.',
+    },
+    {
+      termino: 'Poda',
+      significado:
+        'Corte de ramas en una porción del árbol para obtener madera libre de nudos y mejorar la calidad del cultivo.',
+    },
+    {
+      termino: 'Raleo',
+      significado:
+        'La actividad también conocida como aclareos o entresaca, consiste en la eliminación de plantas con el objetivo de beneficiar y asegurar el adecuado desarrollo y crecimiento de las más sanas.',
+    },
+    {
+      termino: 'Riego',
+      significado:
+        'Aportar agua a las plantas por medio del suelo para asegurar la humedad que requieren y así lograr un adecuado crecimiento y desarrollo.',
+    },
+    {
+      termino: 'Tutorado',
+      significado:
+        'Es utilizar algún material que permita que la planta se mantenga en forma vertical para que su crecimiento sea hacia arriba de forma erguida y no toque el suelo, permitiendo que se desarrolle más sano y consecuentemente, de mayor calidad.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Azcón, J., y Talón, M. (2008). <em>Fundamentos de fisiología vegetal (No. 581.1)</em>. McGraw-Hill Interamericana. ',
+      link:
+        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/50269/',
+    },
+    {
+      referencia:
+        'Blanco-Valdes, Yaisys. (2016). El rol de las arvenses como componente en la biodiversidad de los agroecosistemas. <em>Cultivos Tropicales</em>, 37(4), 34-56. ',
+      link: 'https://dx.doi.org/10.13140/RG.2.2.10964.19844',
+    },
+    {
+      referencia:
+        'Carmona Gómez, A. y González Durán, E. (2016). <em>Labores culturales y recolección de los cultivos ecológicos: UF0209</em>. IC Editorial.',
+      link:
+        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/59217',
+    },
+    {
+      referencia:
+        'Chuncho, G., Chuncho, C., & Aguirre, Z. H. (2019). <em>Anatomía y morfología vegetal</em>. University of Nebraska de Loja: Loja, Ecuador.',
       link: '',
+    },
+    {
+      referencia:
+        'Cisneros A. R. (2003). <em>Apuntes de riego y drenaje</em>. Universidad autónoma de San Luis Potosi.',
+      link: '',
+    },
+    {
+      referencia:
+        'Labrada, R., Caseley, J. C., & Parker, C. (1996). <em>Manejo de malezas para países en desarrollo (Vol. 120)</em>. Food & Agriculture Org.',
+      link: '',
+    },
+    {
+      referencia: 'MINEP. (2005). <em>Manejo agronómico de los cultivos</em>. ',
+      link: 'https://docplayer.es/24915900-Modulo-de-aprendizaje.html',
+    },
+    {
+      referencia:
+        'Mortimer, A. (1996) <em>Manejo de Malezas para Países en Desarrollo</em>. FAO. ',
+      link:
+        'https://www.fao.org/3/T1147S/t1147s06.htm#cap%C3%ADtulo%202.%20la%20clasificaci%C3%B3n%20y%20ecolog%C3%ADa%20de%20las%20malezas',
     },
   ],
   creditos: {
@@ -140,9 +302,30 @@ export default {
     contenidoInstruccional: [
       {
         nombre: 'Rafael Neftalí Lizcano Reyes',
-        cargo: 'Asesor metodológico y pedagógico',
+        cargo: 'Responsable de desarrollo curricular',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Yisela Andrea Vidales Vásquez',
+        cargo: 'Experta temática',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+      },
+      {
+        nombre: 'Paola Alexandra Moya Peralta',
+        cargo: 'Diseñadora instruccional',
+        centro:
+          'Centro de la Industria, la Empresa y los Servicios - Regional Norte de Santander',
+      },
+      {
+        nombre: 'Carolina Coca Salazar',
+        cargo: 'Asesora metodológica',
+        centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+      },
+      {
+        nombre: 'Sandra Patricia Hoyos Sepúlveda',
+        cargo: 'Corrección de estilo',
+        centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
       },
     ],
     desarrolloProducto: [
@@ -153,7 +336,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Edison Eduardo Mantilla Cuadros',
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
@@ -165,10 +348,9 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Jhon Jairo Urueta Alvarez',
         cargo: 'Desarrollo front-end',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
       {
         nombre: 'Nombre',
