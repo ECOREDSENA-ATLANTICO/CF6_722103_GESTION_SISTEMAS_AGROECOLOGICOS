@@ -49,19 +49,23 @@
           li 
             .lista-ol--cuadro__vineta
               span(style="color: #12263F") 1
-            | La fecundación, es decir con la embriogénesis que radica en la germinación de semillas y la formación básica del sistema radicular.
+            | 
+            p.mb-0 La #[b fecundación], es decir con la embriogénesis que radica #[b en la germinación de semillas] y la formación básica del #[b sistema radicular].
           li 
             .lista-ol--cuadro__vineta
               span(style="color: #12263F")  2
-            | Mediante procesos metabólicos como la fotosíntesis, transpiración y respiración se da el proceso de construcción de las plantas mediante la aparición de órganos vegetativos como la raíz, tallo y hojas, los cuales rápidamente crecen y ganan altura y grosor.
+            | 
+            p.mb-0 Mediante procesos metabólicos como la #[b fotosíntesis, transpiración y respiración] se da el proceso de construcción de las plantas mediante la aparición de órganos vegetativos como #[b la raíz, tallo y hojas], los cuales rápidamente crecen y ganan altura y grosor.
           li 
             .lista-ol--cuadro__vineta
               span(style="color: #12263F")  3
-            | Con el paso del tiempo surgen nuevos órganos como las flores, la planta alcanza el desarrollo reproductivo y seguidamente las flores se van transformando en frutos.
+            |
+            p.mb-0 Con el paso del tiempo surgen nuevos órganos como #[b las flores], la planta alcanza el desarrollo reproductivo y seguidamente las flores se van transformando en frutos.
           li 
             .lista-ol--cuadro__vineta
               span(style="color: #12263F")  4
-            | Beneficios en la mejora de procesos, garantizando optimización de las operaciones de las empresas.
+            |
+            p.mb-0 Después llega a la senescencia donde puede llegar a ocurrir la pérdida de hojas, flores y frutos e inclusive la muerte. (Carmona, y González, 2016).
     p Sin embargo, es importante resaltar, que existen gran variedad de hábitos y formas de crecimiento, debido a la amplia gama de especies y condiciones ambientales, por ejemplo, al comparar las hojas del mismo árbol estas pueden tener una constitución, forma, tamaño, color y composición diferente, producto de que éstas se desarrollan en ambientes (grado de iluminación) diferentes. #[span.txt-c1 Por tanto, las plantas están en constante y permanente desarrollo y adaptación al entorno y hábitat.]
     Separador
     #t_1_1
@@ -82,7 +86,7 @@
           img(src='@/assets/curso/tema1/img4.svg' style="width: 30px")
       .col-auto.p-0
         h4.mb-0 Raíz
-    p.mb-5 La raíz es el órgano encargado de fijación, la absorción de agua y nutrientes del suelo y, el almacenamiento de alimento; esta posee varias formas, pero en general se caracteriza por la existencia de una raíz principal o primaria que va unida al tallo, cuenta con ramificaciones denominadas raíces secundarias, también cuenta con cofia o punta de la raíz y pelos absorbentes.
+    p.mb-5 La raíz es el órgano encargado de fijación, la absorción de agua y nutrientes del suelo y, el almacenamiento de alimento; esta posee varias formas, pero en general se caracteriza por la existencia de una #[b raíz principal o primaria que va unida al tallo], cuenta con ramificaciones denominadas #[b raíces secundarias], también cuenta con #[b cofia] o #[b punta de la raíz] y #[b pelos absorbentes].
     .row.justify-content-center.mb-5
       .col-lg-6
         .titulo-sexto.color-acento-contenido.mb-4
@@ -137,7 +141,8 @@
           img(src='@/assets/curso/tema1/img4.svg' style="width: 30px")
       .col-auto.p-0
         h4.mb-0 Hojas
-    p.mb-5 El tallo es el órgano encargado de soportar las hojas, flores y frutos, también transportan sustancias desde las raíces a las hojas y a la inversa, y se encargan de la propagación vegetal. La principal clasificación de los tallos es según su consistencia en herbáceos, leñosos y semileñosos. Sus partes principales son:
+    p Las hojas son los órganos encargados de tres procesos de gran importancia para la planta: #[b la respiración, transpiración y la síntesis de compuestos orgánicos por medio de la fotosíntesis], debido a que las hojas son capaces de absorber los rayos del sol. Las principales partes de la hoja:
+    p.mb-5 la lámina o limbo que hace referencia a la parte ensanchada de la hoja donde se puede observar el haz que es la cara superior y, el envés que es la inferior, el peciolo que es la parte cilíndrica y la base que es donde se une el peciolo con el tallo.
     .row.justify-content-center.mb-5
       .col-lg-5
         .titulo-sexto.color-acento-contenido.mb-4
@@ -164,7 +169,7 @@
           img(src='@/assets/curso/tema1/img4.svg' style="width: 30px")
       .col-auto.p-0
         h4.mb-0 Flor
-    p.mb-5 La flor es la estructura reproductiva de las plantas, su función se basa en la producción de semillas, está compuesta por cuatro partes fundamentales que son corola, cáliz, estambres y pistilo. En la siguiente infografía se pueden observar las partes de la flor y las diferentes clases:
+    p.mb-5 La flor es la estructura reproductiva de las plantas, su función se basa en la producción de semillas, está compuesta por cuatro partes fundamentales que son #[b corola, cáliz, estambres y pistilo]. En la siguiente infografía se pueden observar las partes de la flor y las diferentes clases:
     .row.justify-content-center.mb-5
       .col-lg-8.mb-5
         h4.text-center.txt-c1.mb-4 Partes de la flor
@@ -180,7 +185,7 @@
           img(src='@/assets/curso/tema1/img4.svg' style="width: 30px")
       .col-auto.p-0
         h4.mb-0 Fruto
-    p.mb-5 El fruto es el ovario maduro y desarrollado, se encarga de contener las semillas; está conformado por el pericarpio que a su vez se divide en epicarpio (piel o capa externa), mesocarpio (carne o capa interna) y endocarpio (cáscara o capa interna leñosa). Existen diversos tipos de frutos y se clasifican de forma general en simples y compuestos, donde los simples se subdividen en indehiscentes o dehiscentes; según el pericarpio en secos y carnosos, y de acuerdo con el número de semillas en monospermos o polispermos.
+    p.mb-5 El fruto es el ovario maduro y desarrollado, se encarga de contener las semillas; está conformado por el pericarpio que a su vez se divide en epicarpio (piel o capa externa), mesocarpio (carne o capa interna) y endocarpio (cáscara o capa interna leñosa). Existen diversos tipos de frutos y se clasifican de forma general en #[b simples y compuestos], donde los simples se subdividen en indehiscentes o dehiscentes; según el pericarpio en secos y carnosos, y de acuerdo con el número de semillas en monospermos o polispermos.
     .row.justify-content-center
       .col-lg-10
         .titulo-sexto.color-acento-contenido.mb-4
@@ -222,7 +227,7 @@
       .col-12.p-5
         .row.justify-content-center.align-items-center
           .col-lg-6
-            p Pero, el proceso de desarrollo a pesar de ser una operación organizada cuenta con gran variedad de formas y hábitos de crecimiento, producto de la gran  variedad de especies existentes y los cambios en las condiciones ambientales, lo que conlleva a que las plantas deben garantizar durante todo su crecimiento la obtención en cantidades apropiadas de materia y energía, por tanto, requieren de una evolución constante y adaptación de diferentes partes de la planta, como son las raíces, el tallo y las hojas que emplean de forma directa la energía luminosa.Pero, el proceso de desarrollo a pesar de ser una operación organizada cuenta con gran variedad de formas y hábitos de crecimiento, producto de la gran  variedad de especies existentes y los cambios en las condiciones ambientales, lo que conlleva a que las plantas deben garantizar durante todo su crecimiento la obtención en cantidades apropiadas de materia y energía, por tanto, requieren de una evolución constante y adaptación de diferentes partes de la planta, como son las raíces, el tallo y las hojas que emplean de forma directa la energía luminosa.
+            p Pero, el proceso de desarrollo a pesar de ser una operación organizada cuenta con gran variedad de formas y hábitos de crecimiento, producto de la gran  variedad de especies existentes y los cambios en las condiciones ambientales, lo que conlleva a que las plantas deben garantizar durante todo su crecimiento la obtención en cantidades apropiadas de materia y energía, por tanto, requieren de una evolución constante y adaptación de diferentes partes de la planta, como son las raíces, el tallo y las hojas que emplean de forma directa la energía luminosa.
           .col-lg-4
             figure
               img(src='@/assets/curso/tema1/img18.svg' style="width: 350px").m-auto

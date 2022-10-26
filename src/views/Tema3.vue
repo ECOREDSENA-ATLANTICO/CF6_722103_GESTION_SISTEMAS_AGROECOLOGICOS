@@ -42,78 +42,74 @@
               img(src='@/assets/curso/tema3/img4.svg' style="width: 210px").m-auto
           .col-12
             p.bg-c7.p-4.mb-0 Las de aplicación y regulación de nutrientes.
+      .tarjeta.color-piel
+        .row.h-100
+          .col-12.p-4
+            figure
+              img(src='@/assets/curso/tema3/img29.svg' style="width: 210px").m-auto
+          .col-12
+            p.bg-c7.p-4.mb-0 Las labores de control para evitar enfermedades, disminución o pérdida de los cultivos, como son embolsado de frutos, manejo ecológico de plagas y enfermedades.
     p Estas actividades de manejo cultural de los cultivos van de la mano con las buenas prácticas agrícolas (BPA), que son una serie de normas y recomendaciones técnicas para toda la cadena de producción, es decir, desde la planeación del cultivo, la cosecha y poscosecha, con la finalidad de garantizar la inocuidad de los productos y a su vez cuidar la salud humana, proteger el medio ambiente y brindar bienestar y seguridad de los trabajadores.
     Separador
     #t_3_1
     .titulo-segundo.color-acento-contenido
       h2 3.1 Técnicas y métodos
     p.mb-5 Existen diversos tipos de actividades, técnicas y métodos que se desarrollan en el manejo cultural de los cultivos, los cuales son de carácter preventivo, de manejo y control para el desarrollo fisiológico, el manejo de poblaciones asociadas. A continuación se establecen las actividades básicas que se realizan a los cultivos:
-    .row.justify-content-center.mb-4
-      .col-10.col-md-6.col-xl-3.mb-4.mb-xl-0
-        .tarjeta.tarjeta-slide.arriba.color-secundario(@mouseover="indicadorTarjetaSlide = false")
-          .indicador--hover(v-if="indicadorTarjetaSlide")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              p.mb-0 Consiste en llevar una planta que se encuentra creciendo es un lugar temporal al lugar donde completará su ciclo de vida.
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/img5.svg')})`}")
-      .col-10.col-md-6.col-xl-3.mb-4.mb-xl-0
-        .tarjeta.tarjeta-slide.arriba.color-secundario(@mouseover="indicadorTarjetaSlide = false")
-          .indicador--hover(v-if="indicadorTarjetaSlide")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              p.mb-0 Consiste en dar espacio a las plantas, quitando de su alrededor aquellas plantas que están más débiles o demasiado cerca.
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/img6.svg')})`}")
-      .col-10.col-md-6.col-xl-3.mb-4.mb-xl-0
-        .tarjeta.tarjeta-slide.arriba.color-secundario(@mouseover="indicadorTarjetaSlide = false")
-          .indicador--hover(v-if="indicadorTarjetaSlide")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              p.mb-0 Consiste en arrimar o amontonar tierra alrededor del tallos o base de la planta para fortalecer el tallo y permitir un crecimiento ideal.
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/img7.svg')})`}")
-      .col-10.col-md-6.col-xl-3.mb-4.mb-xl-0
-        .tarjeta.tarjeta-slide.arriba.color-secundario(@mouseover="indicadorTarjetaSlide = false")
-          .indicador--hover(v-if="indicadorTarjetaSlide")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              p.mb-0 Consiste en cambiar las plantas que no se han desarrollado bien después del trasplante, por nuevas.
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/img8.svg')})`}")
-    .row.justify-content-center.mb-5
-      .col-10.col-md-6.col-xl-3.mb-4.mb-xl-0
-        .tarjeta.tarjeta-slide.arriba.color-secundario(@mouseover="indicadorTarjetaSlide = false")
-          .indicador--hover(v-if="indicadorTarjetaSlide")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              p.mb-0 Práctica de aplicar agua a un suelo, para garantizar las condiciones de humedad necesarias para el buen desarrollo de las plantas.
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/img6.svg')})`}")
-      .col-10.col-md-6.col-xl-3.mb-4.mb-xl-0
-        .tarjeta.tarjeta-slide.arriba.color-secundario(@mouseover="indicadorTarjetaSlide = false")
-          .indicador--hover(v-if="indicadorTarjetaSlide")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              p.mb-0 Consiste en mantener a la planta en posición vertical y así evitar daño a los frutos durante la fase productiva de la planta.
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/img7.svg')})`}")
-      .col-10.col-md-6.col-xl-3.mb-4.mb-xl-0
-        .tarjeta.tarjeta-slide.arriba.color-secundario(@mouseover="indicadorTarjetaSlide = false")
-          .indicador--hover(v-if="indicadorTarjetaSlide")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              p.mb-0 Consiste en retirar plantas no deseadas, conocidas como mala hierbas.
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/img8.svg')})`}")
-    .row.justify-content-center.mb-5
-      .col-10.col-md-6.col-xl-3.mb-4.mb-xl-0
-        .tarjeta.tarjeta-slide.arriba.color-secundario(@mouseover="indicadorTarjetaSlide = false")
-          .indicador--hover(v-if="indicadorTarjetaSlide")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              p.mb-0 Operación de suprimirle ramas a la planta, con la finalidad de mejorar su arquitectura, favorecer el desarrollo vegetativo e incrementar la capacidad productiva de las plantas.
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/img9.svg')})`}")
-      .col-10.col-md-6.col-xl-3.mb-4.mb-xl-0
-        .tarjeta.tarjeta-slide.arriba.color-secundario(@mouseover="indicadorTarjetaSlide = false")
-          .indicador--hover(v-if="indicadorTarjetaSlide")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              p.mb-0 Selección, integración e implementación de medidas de control que eviten o minimicen el daño causado por plagas y enfermedades.
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/img10.svg')})`}")
+    AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
+      .row(titulo="Transplante").align-items-center
+        .col-lg-auto.mb-4.mb-lg-0
+          figure
+            img(src='@/assets/curso/tema3/img5.svg' style="width: 150px").m-auto
+        .col-lg
+          p.mb-0 Consiste en llevar una planta que se encuentra creciendo es un lugar temporal al lugar donde completará su ciclo de vida.
+      .row(titulo="Raleo").align-items-center
+        .col-lg-auto.mb-4.mb-lg-0
+          figure
+            img(src='@/assets/curso/tema3/img6.svg' style="width: 200px").m-auto
+        .col-lg
+          p.mb-0 Consiste en dar espacio a las plantas, quitando de su alrededor aquellas plantas que están más débiles o demasiado cerca.
+      .row(titulo="Aporque").align-items-center
+        .col-lg-auto.mb-4.mb-lg-0
+          figure
+            img(src='@/assets/curso/tema3/img7.svg' style="width: 200px").m-auto
+        .col-lg
+          p.mb-0 Consiste en arrimar o amontonar tierra alrededor del tallos o base de la planta para fortalecer el tallo y permitir un crecimiento ideal.
+      .row(titulo="Repique").align-items-center
+        .col-lg-auto.mb-4.mb-lg-0
+          figure
+            img(src='@/assets/curso/tema3/img8.svg' style="width: 200px").m-auto
+        .col-lg
+          p.mb-0 Consiste en cambiar las plantas que no se han desarrollado bien después del trasplante, por nuevas.
+      .row(titulo="Riego").align-items-center
+        .col-lg-auto.mb-4.mb-lg-0
+          figure
+            img(src='@/assets/curso/tema3/img9.svg' style="width: 200px").m-auto
+        .col-lg
+          p.mb-0 Práctica de aplicar agua a un suelo, para garantizar las condiciones de humedad necesarias para el buen desarrollo de las plantas.
+      .row(titulo="Tutorado").align-items-center
+        .col-lg-auto.mb-4.mb-lg-0
+          figure
+            img(src='@/assets/curso/tema3/img10.svg' style="width: 200px").m-auto
+        .col-lg
+          p.mb-0 Consiste en mantener a la planta en posición vertical y así evitar daño a los frutos durante la fase productiva de la planta.
+      .row(titulo="Control de arvenses deshierbe").align-items-center
+        .col-lg-auto.mb-4.mb-lg-0
+          figure
+            img(src='@/assets/curso/tema3/img11.svg' style="width: 200px").m-auto
+        .col-lg
+          p.mb-0 Consiste en retirar plantas no deseadas, conocidas como mala hierbas.
+      .row(titulo="Poda").align-items-center
+        .col-lg-auto.mb-4.mb-lg-0
+          figure
+            img(src='@/assets/curso/tema3/img12.svg' style="width: 200px").m-auto
+        .col-lg
+          p.mb-0 Operación de suprimirle ramas a la planta, con la finalidad de mejorar su arquitectura, favorecer el desarrollo vegetativo e incrementar la capacidad productiva de las plantas.
+      .row(titulo="Manejo de plagas y enfermedades").align-items-center
+        .col-lg-auto.mb-4.mb-lg-0
+          figure
+            img(src='@/assets/curso/tema3/img13.svg' style="width: 200px").m-auto
+        .col-lg
+          p.mb-0 Selección, integración e implementación de medidas de control que eviten o minimicen el daño causado por plagas y enfermedades.
     .row.align-items-center.mb-4
       .col-auto
         figure
@@ -373,16 +369,20 @@
         ul.lista-ul
           li 
             i.fas.fa-leaf(style="color: #FFA686")
-            | El machete con diferentes formas de hoja.
+            |
+            p.mb-0 #[b El machete] con diferentes formas de hoja.
           li 
             i.fas.fa-leaf(style="color: #FFA686")
-            | El azadón que se usan comúnmente para abrir nuevas tierras, el borde de corte se usa para cortar raíces y los picos para trabajos de excavación y construcción.
+            |
+            p.mb-0 #[b El azadón] que se usan comúnmente para abrir nuevas tierras, el borde de corte se usa para cortar raíces y los picos para trabajos de excavación y construcción.
           li 
             i.fas.fa-leaf(style="color: #FFA686")
-            | Palas que son implementos de excavación que se utilizan para mover materiales sueltos o no consolidados en distancias cortas, existiendo una amplia gama de diseños disponibles como rectangular y redonda.
+            |
+            p.mb-0 #[b Palas] que son implementos de excavación que se utilizan para mover materiales sueltos o no consolidados en distancias cortas, existiendo una amplia gama de diseños disponibles como rectangular y redonda.
           li 
             i.fas.fa-leaf(style="color: #FFA686")
-            | Hoz y rastrillos.
+            |
+            p.mb-0 #[b Hoz y rastrillos].
     .row.align-items-center.mb-4
       .col-auto
         figure
