@@ -2,52 +2,52 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 2
       h1 Arvenses
     .row.align-items-center.mb-5
-      .col-lg-4.mb-4.mb-lg-0
+      .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
         figure
           img(src='@/assets/curso/tema2/img1.png' style="width: 350px").m-auto
       .col-lg-8
         p Los arvenses son plantas conocidas comúnmente como maleza, que no tiene interés para el hombre, es decir no son deseables y por tanto deben ser destruidas ya que llegan a generar pérdidas y afectaciones directas en la producción agrícola de aproximadamente el 10%, debido a que interfieren en el crecimiento de los cultivos y entran a competir por nutrientes, espacio, suelo y recursos vitales (agua, sol), afecta la calidad de los productos debido a que pueden presentar impurezas provenientes de restos de arvenses e influyen  en el sabor, olor y color; también generan aumento en los costos de producción porque se debe invertir tiempo y recursos para su manejo, dificultan e interfieren en las labores agrícolas, son hospederas de plagas y enfermedades que pueden llegar afectar el cultivo y disminuyen el valor de la tierra.
         p Los arvenses al igual que las demás plantas se reproducen y su forma de propagación normalmente es a través de:
-    .row.justify-content-center
-      .col-10.col-md-6.col-lg.m-2
-        .row
+    .row.justify-content-center(data-aos="fade-down")
+      .col-10.col-md-6.col-lg
+        .row.m-2
           .col-12.p-0
             figure
               img(src='@/assets/curso/tema2/img2.png')
           .col-12.bg-c6.p-4
-            p #[b El viento ya que las semillas son diseminadas por el aire.]
-      .col-10.col-md-6.col-lg.m-2
-        .row
+            p.text-center #[b El viento ya que las semillas son diseminadas por el aire.]
+      .col-10.col-md-6.col-lg
+        .row.m-2
           .col-12.p-0
             figure
               img(src='@/assets/curso/tema2/img3.png')
           .col-12.bg-c6.p-4
-            p #[b  El agua mediante canales de riego y drenaje o afluentes naturales.]
-      .col-10.col-md-6.col-lg.m-2
-        .row
+            p.text-center #[b  El agua mediante canales de riego y drenaje o afluentes naturales.]
+      .col-10.col-md-6.col-lg
+        .row.m-2
           .col-12.p-0
             figure
               img(src='@/assets/curso/tema2/img4.png')
           .col-12.bg-c6.p-4
-            p #[b El hombre que las transporta y las envía a otros lugares.]
-      .col-10.col-md-6.col-lg.m-2
-        .row
+            p.text-center #[b El hombre que las transporta y las envía a otros lugares.]
+      .col-10.col-md-6.col-lg
+        .row.m-2
           .col-12.p-0
             figure
               img(src='@/assets/curso/tema2/img5.png')
           .col-12.bg-c6.p-4
-            p #[b Los animales ya que estos las ingieren y mediante las heces las descargan en otros sitios.]
+            p.text-center #[b Los animales ya que estos las ingieren y mediante las heces las descargan en otros sitios.]
     Separador
     #t_2_1
     .titulo-segundo.color-acento-contenido
       h2 2.1 Rol ecológico
     p.mb-5 Las arvenses, en el sentido agronómico, representan plantas sin valor económico o que crecen fuera de lugar interfiriendo en la actividad de los cultivos, afectando su capacidad de producción y desarrollo normal por la competencia de agua, luz, nutrientes y espacio físico, o por la producción de sustancias nocivas para el cultivo; pese a todo esto cumplen un papel agroecológico muy importante, en el siguiente video se conocerá:
-    figure.mb-5
+    figure.mb-5(data-aos="fade-left")
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/6_ljFWxQsbw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     p Por tanto, es necesario desarrollar estudios y emplear métodos de análisis ecológicos en los sistemas agrícolas, que permitan comprender y conocer mejor a las poblaciones de arvenses en temas relacionados con el modelo de distribución, crecimiento, desarrollo, fenología, alelopatía o influencia e interacción biótica y abiótica con los cultivos y en general con los agroecosistemas con la finalidad de tomar las mejores decisiones sobre su manejo y así lograr poner en práctica métodos adecuados, para su reducción o eliminación sin afectar al cultivo ni el medio ambiente.
@@ -56,7 +56,7 @@
     .titulo-segundo.color-acento-contenido
       h2 2.2 Clasificación
     p.mb-5 Los arvenses se pueden clasificar de diversas formas, en el siguiente gráfico se muestran:
-    .tarjeta.tarjeta--verde.p-4.mb-5
+    .tarjeta.tarjeta--verde.p-4.mb-5(data-aos="fade-right")
       SlyderA(tipo="b")
         .row.justify-content-center
           .col-lg-4.mb-4.mb-lg-0
@@ -151,7 +151,7 @@
             figure
               img(src='@/assets/curso/tema2/img10.png' style="width: 550px").m-auto
     p.mb-5 Holm et al. 1977., citado por Labrada, R., Caseley, J. C., y Parker, C. (1996), determinó cuales son los 18 arvenses o malezas más importantes a nivel mundial, es decir que ocasionan más daños y generan gastos para su control, desde el punto de vista del hábitat o de las áreas afectadas, debido a que éstas son difíciles de clasificar de acuerdo con criterios botánicos como la morfología, fenología y taxonomía.
-    .row.justify-content-center
+    .row.justify-content-center(data-aos="fade-left")
       .col-lg-9
         .titulo-sexto.color-acento-contenido.mb-5
           p.mb-0 #[b Tabla 1]. Arvenses más importantes a nivel mundial
