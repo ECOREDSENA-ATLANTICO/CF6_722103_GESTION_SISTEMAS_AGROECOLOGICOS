@@ -16,21 +16,21 @@
           p.mb-0 La fisiología  vegetal desarrollo que está enfocado al crecimiento, desarrollo, reproducción y fisiología del metabolismo que abarca las transformaciones químicas y físicas que se dan en los órganos y células de las plantas.
         p Las plantas al igual que todos los seres vivos, cumplen un ciclo de vida en el cual realizan consecutivamente una serie de procesos y estados, los cuales desde el punto de vista fisiológico se puede identificar y son comúnmente conocidos como fase juvenil, maduro o adulto y senescente.
     .row.justify-content-center.mb-5(data-aos="fade-up")
-      .col-10.col-md-6.col-xl-3.mb-4.mb-xl-0
+      .col-8.col-md-6.col-xl-3.mb-4.mb-xl-0
         .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .tarjeta-slide__contenedor
             .tarjeta-slide__contenido.p-4.p-xl-5
               p.mb-0 Esta etapa se caracteriza por la presencia de procesos de crecimiento y desarrollo vegetativo. Inicia con la germinación y finaliza en el momento en que la planta es apta para iniciar los procesos de tipo reproductivo (aunque éstos no se dan). La duración del período juvenil es muy variable: desde unos pocos días o semanas, en las plantas herbáceas, hasta varios años en las plantas leñosas.
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img1.svg')})`}")
-      .col-10.col-md-6.col-xl-3.mb-4.mb-xl-0
+      .col-8.col-md-6.col-xl-3.mb-4.mb-xl-0
         .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .tarjeta-slide__contenedor
             .tarjeta-slide__contenido.p-4.p-xl-5
               p.mb-0 Es el período en el que la planta es capaz de florecer si se dan las condiciones para ello. Es decir que haya florecido al recibir el estímulo adecuado. También, en esta fase se origina un cambio drástico relacionado con la transición de meristemo vegetativo a reproductivo.
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img2.svg')})`}")
-      .col-10.col-md-6.col-xl-3
+      .col-8.col-md-6.col-xl-3
         .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .tarjeta-slide__contenedor
