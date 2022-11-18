@@ -133,7 +133,7 @@
               img(src='@/assets/curso/tema2/img9.png' style="width: 550px").m-auto
         .row.justify-content-center
           .col-lg-4.mb-4.mb-lg-0
-            h4 Tallo
+            h4 Hábitos
             ul.lista-ul
               li 
                 i.fas.fa-leaf(style="color: #FFA686")

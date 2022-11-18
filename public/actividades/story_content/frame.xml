@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npnxnanbnsnfns00000000001" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="classic">
   <layouts>
-    <layout name="npnxnanbsnfns00000000001" font="Didact Gothic" controllayout="npnxnanbsnfns00000000001" colorscheme="npnxnanbnsnfns00000000001" string_table="npnxnanbnsnfns00000000001" />
-    <layout name="pxabnsnfns00000000001" font="Didact Gothic" controllayout="pxabnsnfns00000000001" colorscheme="npnxnanbnsnfns00000000001" string_table="npnxnanbnsnfns00000000001" />
-    <layout name="npxnabnsnfns00000000001" font="Didact Gothic" controllayout="npxnabnsnfns00000000001" colorscheme="npnxnanbnsnfns00000000001" string_table="npnxnanbnsnfns00000000001" />
-    <layout name="npnxnanbnsnfns00000000001" font="Didact Gothic" controllayout="npnxnanbnsnfns00000000001" colorscheme="npnxnanbnsnfns00000000001" string_table="npnxnanbnsnfns00000000001" />
-    <layout name="pxabnsnfns00000000000" font="Didact Gothic" controllayout="pxabnsnfns00000000000" colorscheme="npnxnanbnsnfns00000000001" string_table="npnxnanbnsnfns00000000001" />
+    <layout name="npnxnanbsnfns00000000001" font="Open Sans" controllayout="npnxnanbsnfns00000000001" colorscheme="npnxnanbnsnfns00000000001" string_table="npnxnanbnsnfns00000000001" />
+    <layout name="pxabnsnfns00000000001" font="Open Sans" controllayout="pxabnsnfns00000000001" colorscheme="npnxnanbnsnfns00000000001" string_table="npnxnanbnsnfns00000000001" />
+    <layout name="npxnabnsnfns00000000001" font="Open Sans" controllayout="npxnabnsnfns00000000001" colorscheme="npnxnanbnsnfns00000000001" string_table="npnxnanbnsnfns00000000001" />
+    <layout name="npnxnanbnsnfns00000000001" font="Open Sans" controllayout="npnxnanbnsnfns00000000001" colorscheme="npnxnanbnsnfns00000000001" string_table="npnxnanbnsnfns00000000001" />
+    <layout name="pxabnsnfns00000000000" font="Open Sans" controllayout="pxabnsnfns00000000000" colorscheme="npnxnanbnsnfns00000000001" string_table="npnxnanbnsnfns00000000001" />
   </layouts>
   <control_options>
     <optiongroups>
@@ -70,7 +70,7 @@
           <option name="search" value="false" />
           <option name="closed_captions" value="false">
             <options>
-              <option name="font" value="Didact Gothic" />
+              <option name="font" value="Open Sans" />
             </options>
           </option>
           <option name="settings" value="false" />
@@ -102,7 +102,6 @@
       <control name="next" enabled="false" />
       <control name="swipeleft" enabled="false" />
       <control name="swiperight" enabled="false" />
-      <control name="fullScreenToggle" enabled="false" />
       <control name="submit" enabled="true" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
@@ -126,7 +125,6 @@
       <control name="next" enabled="true" />
       <control name="swipeleft" enabled="true" />
       <control name="swiperight" enabled="true" />
-      <control name="fullScreenToggle" enabled="false" />
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
@@ -150,7 +148,6 @@
       <control name="next" enabled="true" />
       <control name="swipeleft" enabled="false" />
       <control name="swiperight" enabled="true" />
-      <control name="fullScreenToggle" enabled="false" />
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
@@ -174,7 +171,6 @@
       <control name="next" enabled="false" />
       <control name="swipeleft" enabled="false" />
       <control name="swiperight" enabled="false" />
-      <control name="fullScreenToggle" enabled="false" />
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
@@ -198,7 +194,6 @@
       <control name="next" enabled="true" />
       <control name="swipeleft" enabled="true" />
       <control name="swiperight" enabled="true" />
-      <control name="fullScreenToggle" enabled="false" />
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
@@ -1289,9 +1284,9 @@
     </string_table>
   </string_tables>
   <fonts>
-    <font name="Didact Gothic">
+    <font name="Open Sans">
       <files>
-        <file bold="false" italic="false" />
+        <file bold="true" italic="false" />
         <file bold="false" italic="false" />
       </files>
     </font>

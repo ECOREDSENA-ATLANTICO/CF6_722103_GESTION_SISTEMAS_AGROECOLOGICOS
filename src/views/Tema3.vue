@@ -73,7 +73,7 @@
           figure
             img(src='@/assets/curso/tema3/img7.svg' style="width: 200px").m-auto
         .col-lg
-          p.mb-0 Consiste en arrimar o amontonar tierra alrededor del tallos o base de la planta para fortalecer el tallo y permitir un crecimiento ideal.
+          p.mb-0 Consiste en arrimar o amontonar tierra alrededor del tallo o base de la planta para fortalecer el tallo y permitir un crecimiento ideal.
       .row(titulo="Repique").align-items-center
         .col-lg-auto.mb-4.mb-lg-0
           figure
@@ -321,7 +321,7 @@
           .tarjeta.tarjeta--verde2
             .p-4
               h5.mb-0 Control físico
-              p.mb-0 Consiste en el manejo de humedad, temperatura, quemas con fuego, instalación de mallas metálicas, etc..
+              p.mb-0 Consiste en el manejo de humedad, temperatura, quemas con fuego, instalación de mallas metálicas, etc.
         .tarjeta-avatar-b.mb-4
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/tema3/img26.svg' alt='AvatarTop').fig-p2
@@ -342,7 +342,7 @@
           .tarjeta.tarjeta--verde5
             .p-4
               h5.mb-0 Control químico
-              p.mb-0 Productos específicos como herbicidas (maleza o arvenses,) insecticidas (insectos), bactericidas o antibióticos (bacterias), fungicidas (hongos), acaricidas (ácaros), nematicidas (nematodos).
+              p.mb-0 Productos específicos como herbicidas (maleza o arvenses), insecticidas (insectos), bactericidas o antibióticos (bacterias), fungicidas (hongos), acaricidas (ácaros), nematicidas (nematodos).
       .col-lg-3(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema3/img23.svg' style="width: 350px").m-auto

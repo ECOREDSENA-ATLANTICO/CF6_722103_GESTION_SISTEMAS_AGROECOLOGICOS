@@ -144,7 +144,7 @@
       .col-auto.p-0
         h3.mb-0 Hojas
     p Las hojas son los órganos encargados de tres procesos de gran importancia para la planta: #[b la respiración, transpiración y la síntesis de compuestos orgánicos por medio de la fotosíntesis], debido a que las hojas son capaces de absorber los rayos del sol. Las principales partes de la hoja:
-    p.mb-5 la lámina o limbo que hace referencia a la parte ensanchada de la hoja donde se puede observar el haz que es la cara superior y, el envés que es la inferior, el peciolo que es la parte cilíndrica y la base que es donde se une el peciolo con el tallo.
+    p.mb-5 La lámina o limbo que hace referencia a la parte ensanchada de la hoja donde se puede observar el haz que es la cara superior y, el envés que es la inferior, el peciolo que es la parte cilíndrica y la base que es donde se une el peciolo con el tallo.
     .row.justify-content-center.mb-5(data-aos="fade-down")
       .col-lg-5
         .titulo-sexto.color-acento-contenido.mb-4
