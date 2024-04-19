@@ -9,7 +9,7 @@
     .row.align-items-center.mb-5
       .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
         figure
-          img(src='@/assets/curso/tema2/img1.png' style="width: 350px").m-auto
+          img(src='@/assets/curso/tema2/img1.png' alt='Imagen Decorativa' style="width: 350px").m-auto
       .col-lg-8
         p Los arvenses son plantas conocidas comúnmente como maleza, que no tiene interés para el hombre, es decir no son deseables y por tanto deben ser destruidas ya que llegan a generar pérdidas y afectaciones directas en la producción agrícola de aproximadamente el 10%, debido a que interfieren en el crecimiento de los cultivos y entran a competir por nutrientes, espacio, suelo y recursos vitales (agua, sol), afecta la calidad de los productos debido a que pueden presentar impurezas provenientes de restos de arvenses e influyen  en el sabor, olor y color; también generan aumento en los costos de producción porque se debe invertir tiempo y recursos para su manejo, dificultan e interfieren en las labores agrícolas, son hospederas de plagas y enfermedades que pueden llegar afectar el cultivo y disminuyen el valor de la tierra.
         p Los arvenses al igual que las demás plantas se reproducen y su forma de propagación normalmente es a través de:
@@ -18,28 +18,28 @@
         .row.m-2
           .col-12.p-0
             figure
-              img(src='@/assets/curso/tema2/img2.png')
+              img(src='@/assets/curso/tema2/img2.png' alt='Imagen Decorativa')
           .col-12.bg-c6.p-4
             p.text-center #[b El viento ya que las semillas son diseminadas por el aire.]
       .col-10.col-md-6.col-lg
         .row.m-2
           .col-12.p-0
             figure
-              img(src='@/assets/curso/tema2/img3.png')
+              img(src='@/assets/curso/tema2/img3.png' alt='Imagen Decorativa')
           .col-12.bg-c6.p-4
             p.text-center #[b  El agua mediante canales de riego y drenaje o afluentes naturales.]
       .col-10.col-md-6.col-lg
         .row.m-2
           .col-12.p-0
             figure
-              img(src='@/assets/curso/tema2/img4.png')
+              img(src='@/assets/curso/tema2/img4.png' alt='Imagen Decorativa')
           .col-12.bg-c6.p-4
             p.text-center #[b El hombre que las transporta y las envía a otros lugares.]
       .col-10.col-md-6.col-lg
         .row.m-2
           .col-12.p-0
             figure
-              img(src='@/assets/curso/tema2/img5.png')
+              img(src='@/assets/curso/tema2/img5.png' alt='Imagen Decorativa')
           .col-12.bg-c6.p-4
             p.text-center #[b Los animales ya que estos las ingieren y mediante las heces las descargan en otros sitios.]
     Separador
@@ -82,7 +82,7 @@
                 | Parásitas (viven a expensa de otras).
           .col-lg-6
             figure
-              img(src='@/assets/curso/tema2/img6.png' style="width: 550px").m-auto
+              img(src='@/assets/curso/tema2/img6.png' alt='Imagen Decorativa' style="width: 550px").m-auto
         .row.justify-content-center
           .col-lg-4.mb-4.mb-lg-0
             h4 Hábitat de cultivo
@@ -104,7 +104,7 @@
                 | Crecen al borde de las carreteras, caminos, cultivos o lotes.
           .col-lg-6
             figure
-              img(src='@/assets/curso/tema2/img7.png' style="width: 550px").m-auto
+              img(src='@/assets/curso/tema2/img7.png' alt='Imagen Decorativa' style="width: 550px").m-auto
         .row.justify-content-center
           .col-lg-4.mb-4.mb-lg-0
             h4 Morfologías
@@ -117,7 +117,7 @@
                 | Criptógamas (sin flores).
           .col-lg-6
             figure
-              img(src='@/assets/curso/tema2/img8.png' style="width: 550px").m-auto
+              img(src='@/assets/curso/tema2/img8.png' alt='Imagen Decorativa' style="width: 550px").m-auto
         .row.justify-content-center
           .col-lg-4.mb-4.mb-lg-0
             h4 Tallo
@@ -130,7 +130,7 @@
                 | Semileñosas.
           .col-lg-6
             figure
-              img(src='@/assets/curso/tema2/img9.png' style="width: 550px").m-auto
+              img(src='@/assets/curso/tema2/img9.png' alt='Imagen Decorativa' style="width: 550px").m-auto
         .row.justify-content-center
           .col-lg-4.mb-4.mb-lg-0
             h4 Hábitos
@@ -149,7 +149,7 @@
                 | Erectas.
           .col-lg-6
             figure
-              img(src='@/assets/curso/tema2/img10.png' style="width: 550px").m-auto
+              img(src='@/assets/curso/tema2/img10.png' alt='Imagen Decorativa' style="width: 550px").m-auto
     p.mb-5 Holm et al. 1977., citado por Labrada, R., Caseley, J. C., y Parker, C. (1996), determinó cuales son los 18 arvenses o malezas más importantes a nivel mundial, es decir que ocasionan más daños y generan gastos para su control, desde el punto de vista del hábitat o de las áreas afectadas, debido a que éstas son difíciles de clasificar de acuerdo con criterios botánicos como la morfología, fenología y taxonomía.
     .row.justify-content-center(data-aos="fade-left")
       .col-lg-9

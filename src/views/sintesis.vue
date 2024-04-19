@@ -9,7 +9,7 @@
     .row.justify-content-center
       .col-12.mb-5
         figure
-          img(src="@/assets/curso/temas/sintesis.svg", alt="alt")
+          img(src="@/assets/curso/temas/sintesis.svg", alt="La gráfica muestra la sintesis del componente formativo Planificación del manejo cultural en el agroecosistema, teniendo en cuenta la fisiología de las plantas y las técnicas y métodos.")
       .col-auto
         a.anexo.mb-4(:href="obtenerLink('/downloads/anexo1.pdf')" target="_blank")
           .anexo__icono
