@@ -56,7 +56,7 @@
       h2 3.1 Técnicas y métodos
     p.mb-5 Existen diversos tipos de actividades, técnicas y métodos que se desarrollan en el manejo cultural de los cultivos, los cuales son de carácter preventivo, de manejo y control para el desarrollo fisiológico, el manejo de poblaciones asociadas. A continuación se establecen las actividades básicas que se realizan a los cultivos:
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="fade-left")
-      .row(titulo="Transplante").align-items-center
+      .row(titulo="Trasplante").align-items-center
         .col-lg-auto.mb-4.mb-lg-0
           figure
             img(src='@/assets/curso/tema3/img5.svg' alt='Imagen Decorativa' style="width: 150px").m-auto
@@ -399,7 +399,7 @@
         ul.lista-ul
           li 
             i.fas.fa-leaf(style="color: #FFA686")
-            | Tijeras las cuales son usadas directamente por el operario y existen diversos modelos como automáticas, de una o dos manos, de hoja curvo o yunque.
+            | Tijeras, las cuales son usadas directamente por el operario y existen diversos modelos como automáticas, de una o dos manos, de hoja curvo o yunque.
           li 
             i.fas.fa-leaf(style="color: #FFA686")
             | Serruchos.
@@ -426,7 +426,7 @@
             | Productos de protección de heridas.
           li 
             i.fas.fa-leaf(style="color: #FFA686")
-            | Escaleras
+            | Escaleras.
           li 
             i.fas.fa-leaf(style="color: #FFA686")
             | Equipos de plataforma o cesto.

@@ -130,11 +130,6 @@ export default {
         nombreRuta: 'referencias',
       },
       {
-        icono: 'fas fa-download',
-        titulo: 'Descargar material',
-        download: 'downloads/material.zip',
-      },
-      {
         icono: 'far fa-registered',
         titulo: 'Créditos',
         nombreRuta: 'creditos',
@@ -427,7 +422,7 @@ export default {
           'Regional Atlántico -Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga',
       },
       {
-        nombre: 'Jairo Luis Valencia Ebratt',
+        nombre: 'Juan Carlos Cardona Acosta',
         cargo: 'Validación de recursos digitales ',
         centro:
           'Regional Atlántico -Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga',
