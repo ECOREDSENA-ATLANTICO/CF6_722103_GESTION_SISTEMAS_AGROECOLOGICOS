@@ -427,7 +427,7 @@ export default {
           'Regional Atlántico -Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga',
       },
       {
-        nombre: 'Juan Carlos Cardona Acosta',
+        nombre: 'Jairo Luis Valencia Ebratt',
         cargo: 'Validación de recursos digitales ',
         centro:
           'Regional Atlántico -Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga',
