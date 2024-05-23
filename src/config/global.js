@@ -407,7 +407,7 @@ export default {
           'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga - Regional Atlántico',
       },
     ],
-    gestoresRepositorio: [
+    validacionRecurso: [
       {
         nombre: 'Yuli Marcela Gómez Tarazona',
         cargo: 'Validación de contenido',
