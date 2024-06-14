@@ -304,7 +304,7 @@
     .row.justify-content-center.mb-5
       .col-lg-10
         .cajon.color-primario.p-4
-          p.mb-0 Las enfermedades según el patógeno que las origine se pueden clasificar en virosis (virus), fungosas (hongos), bacterianas (bacterias) y, algunos de los síntomas que causan son malformaciones, manchas, agallas, marchitamiento, necrosis y pudriciones. Además, los principales medios de dispersión son a través de semillas contaminadas, viento, agua, insectos, herramientas y utensilios.
+          p.mb-0 Las enfermedades según el patógeno que las origine se pueden clasificar en virosis (virus), fungosas (hongos), bacterianas (bacterias) y algunos de los síntomas que causan son malformaciones, manchas, agallas, marchitamiento, necrosis y pudriciones. Además, los principales medios de dispersión son a través de semillas contaminadas, viento, agua, insectos, herramientas y utensilios.
     p.text-center.mb-5 Los métodos aplicados para combatir las plagas y enfermedades son:
     .row.mb-5
       .col-lg-9.mb-4.mb-lg-0(data-aos="fade-right")
@@ -348,9 +348,9 @@
           img(src='@/assets/curso/tema3/img23.svg' style="width: 350px").m-auto
     p.mb-5 El uso de estos agroquímicos puede ser reemplazado por productos orgánicos que cada día son más empleados ya que son menos nocivos para la salud y el medio ambiente.
     .titulo-sexto.color-acento-contenido.mb-4
-      p.mb-0 #[b Figura 9]. Plaga que atacan raíces, tallos, hojas, flores y frutos de las plantas
+      p.mb-0 #[b Figura 9]. Plagas que atacan raíces, tallos, hojas, flores y frutos de las plantas
     figure(data-aos="fade-up")
-      img(src='@/assets/curso/tema3/img13.png' alt='Muestra una planta y diferentes plagas que atacan raíces, tallos, flor4es y frutos de las plantas.')
+      img(src='@/assets/curso/tema3/img13.png' alt='Muestra una planta y diferentes plagas que atacan raíces, tallos, flores y frutos de las plantas.')
       figcaption Nota. MINEP. (2005). Manejo agronómico de los cultivos.
     Separador
     #t_3_2
@@ -370,21 +370,24 @@
       .col-lg-8(data-aos="fade-left")
         ul.lista-ul
           li 
-            i.fas.fa-leaf(style="color: #FFA686")
-            |
-            p.mb-0 #[b El machete] con diferentes formas de hoja.
+            p
+              i.fas.fa-leaf(style="color: #FFA686")
+              b El machete 
+              | con diferentes formas de hoja.
           li 
-            i.fas.fa-leaf(style="color: #FFA686")
-            |
-            p.mb-0 #[b El azadón] que se usan comúnmente para abrir nuevas tierras, el borde de corte se usa para cortar raíces y los picos para trabajos de excavación y construcción.
+            p
+              i.fas.fa-leaf(style="color: #FFA686")
+              b El azadón 
+              | que se usan comúnmente para abrir nuevas tierras, el borde de corte se usa para cortar raíces y los picos para trabajos de excavación y construcción.
           li 
-            i.fas.fa-leaf(style="color: #FFA686")
-            |
-            p.mb-0 #[b Palas] que son implementos de excavación que se utilizan para mover materiales sueltos o no consolidados en distancias cortas, existiendo una amplia gama de diseños disponibles como rectangular y redonda.
+            p
+              i.fas.fa-leaf(style="color: #FFA686")
+              b Palas 
+              | que son implementos de excavación que se utilizan para mover materiales sueltos o no consolidados en distancias cortas, existiendo una amplia gama de diseños disponibles como rectangular y redonda.
           li 
-            i.fas.fa-leaf(style="color: #FFA686")
-            |
-            p.mb-0 #[b Hoz y rastrillos].
+            p
+              i.fas.fa-leaf(style="color: #FFA686")
+              b Hoz y rastrillos.
     .row.align-items-center.mb-4
       .col-auto
         figure

@@ -224,11 +224,11 @@
               p Los cambios son de tipo cualitativo relacionados con la estructura y función; pero, en conclusión, estos permiten la transformación de un zigoto en una planta completa capaz de reproducirse.
     .row.bg-c10
       .col-12.p-5
-        p.text-center.mb-5 #[span.txt-c2 Durante el crecimiento la planta incrementa de forma irreversible su tamaño y volumen, producto del alargamiento o expansión celular, pero para que la planta no solo crezca, sino que también alcance su desarrollo se requiere que las células se especialicen, lo que genera cambios denominados diferenciación.]
+        p.mb-5 #[span.txt-c2 Durante el crecimiento la planta incrementa de forma irreversible su tamaño y volumen, producto del alargamiento o expansión celular, pero para que la planta no solo crezca, sino que también alcance su desarrollo se requiere que las células se especialicen, lo que genera cambios denominados diferenciación.]
         .row.justify-content-center.mb-5(data-aos="fade-up")
           .col-lg-8
             figure
-              img(src='@/assets/curso/tema1/img16.svg' alt='Muestra el crecimiento de una plata, paso a paso.' style="width: 1100px").m-auto
+              img(src='@/assets/curso/tema1/img16.svg' alt='Muestra el crecimiento de una plata.' style="width: 1100px").m-auto
     .row.bg-c4(data-aos="fade-right")
       .col-12.p-5
         .row.justify-content-center.align-items-center
@@ -262,7 +262,7 @@
       .col-lg-8
         p Las plantas no florecen en la fase juvenil debido a que los órganos responsables de la floración no logran responder a los estímulos, por tanto, se requiere un proceso de transición de la fase juvenil a la adulta, el cual se produce poco a poco, donde las características juveniles van desapareciendo de forma gradual. Es decir, cuando la planta alcanza la madurez logra florecer. 
         p Lo que sucede es un cambio en el modelo básico de desarrollo, es decir, una alteración en la estructura, debido a que cuando la planta alcanza cierto tamaño y en reacción a los estímulos internos propios de la planta y ambientales, el desarrollo de las hojas se frena dando lugar a la formación de una flor, mediante el cambio de meristemo axilar a meristemo floral, el cual posee un crecimiento determinado y se acaba con el desarrollo de la flor.
-    p.mb-5 La fructificación es el proceso más importante que se lleva a cabo en una plantación frutal, ya que su finalidad es producir frutos, en el siguiente video se puede observar el proceso:
+    p.mb-5 La fructificación es el proceso más importante que se lleva a cabo en una plantación frutal, ya que su finalidad es producir frutos, en el siguiente video se puede detallar el proceso:
     figure(data-aos="fade-right")
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/j2Q9nmM-o0Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
