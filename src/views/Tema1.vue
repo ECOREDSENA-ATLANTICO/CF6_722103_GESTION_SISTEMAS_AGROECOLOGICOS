@@ -228,7 +228,7 @@
         .row.justify-content-center.mb-5(data-aos="fade-up")
           .col-lg-8
             figure
-              img(src='@/assets/curso/tema1/img16.svg' alt='Muestra el crecimiento de una plata.' style="width: 1100px").m-auto
+              img(src='@/assets/curso/tema1/img16.svg' alt='Muestra el crecimiento de una planta.' style="width: 1100px").m-auto
     .row.bg-c4(data-aos="fade-right")
       .col-12.p-5
         .row.justify-content-center.align-items-center
