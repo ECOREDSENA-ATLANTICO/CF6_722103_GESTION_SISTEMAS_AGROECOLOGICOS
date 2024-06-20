@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="70" height="70.438" viewBox="0 0 70 70.438">
+  <g id="agua" transform="translate(-0.466 -0.025)">
+    <g id="Grupo_176786" data-name="Grupo 176786" transform="translate(0.466 0.025)">
+      <g id="Grupo_176785" data-name="Grupo 176785">
+        <ellipse id="Elipse_7757" data-name="Elipse 7757" cx="35" cy="35.219" rx="35" ry="35.219" fill="#534dca"/>
+      </g>
+    </g>
+    <path id="Trazado_225018" data-name="Trazado 225018" d="M188.69,148.417l-28.562-28.562-.045,15.5-15.5-15.5L138.5,141.67l29.667,29.667a35.426,35.426,0,0,0,20.524-22.92Z" transform="translate(-119.791 -103.972)" fill="#3530a3"/>
+    <g id="Grupo_176787" data-name="Grupo 176787" transform="translate(16.593 16.32)">
+      <path id="Trazado_225019" data-name="Trazado 225019" d="M133.358,135.5l-4.893,8.661A8.661,8.661,0,0,1,119.8,135.5c0-4.783,8.661-15.648,8.661-15.648Z" transform="translate(-119.804 -119.855)" fill="#8bbbff"/>
+      <path id="Trazado_225020" data-name="Trazado 225020" d="M191.206,135.5a8.661,8.661,0,0,1-8.661,8.661V119.855S191.206,130.719,191.206,135.5Z" transform="translate(-173.884 -119.855)" fill="#6aa8ff"/>
+    </g>
+    <g id="Grupo_176788" data-name="Grupo 176788" transform="translate(27.092 16.223)">
+      <path id="Trazado_225021" data-name="Trazado 225021" d="M218.51,144.246l-7.627,13.5a13.5,13.5,0,0,1-13.5-13.5c0-7.456,13.5-24.391,13.5-24.391Z" transform="translate(-197.383 -119.855)" fill="#adcfff"/>
+      <path id="Trazado_225022" data-name="Trazado 225022" d="M308.681,144.247a13.5,13.5,0,0,1-13.5,13.5V119.856S308.681,136.791,308.681,144.247Z" transform="translate(-281.681 -119.856)" fill="#8bbbff"/>
+    </g>
+  </g>
+</svg>
