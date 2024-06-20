@@ -51,23 +51,19 @@
               li 
                 .lista-ol--cuadro__vineta
                   span(style="color: #12263F") 1
-                | 
-                p.mb-0 La #[b fecundación], es decir con la embriogénesis que radica #[b en la germinación de semillas] y la formación básica del #[b sistema radicular].
+                |  La #[b fecundación], es decir con la embriogénesis que radica #[b en la germinación de semillas] y la formación básica del #[b sistema radicular].
               li 
                 .lista-ol--cuadro__vineta
                   span(style="color: #12263F")  2
-                | 
-                p.mb-0 Mediante procesos metabólicos como la #[b fotosíntesis, transpiración y respiración] se da el proceso de construcción de las plantas mediante la aparición de órganos vegetativos como #[b la raíz, tallo y hojas], los cuales rápidamente crecen y ganan altura y grosor.
+                |  Mediante procesos metabólicos como la #[b fotosíntesis, transpiración y respiración] se da el proceso de construcción de las plantas mediante la aparición de órganos vegetativos como #[b la raíz, tallo y hojas], los cuales rápidamente crecen y ganan altura y grosor.
               li 
                 .lista-ol--cuadro__vineta
                   span(style="color: #12263F")  3
-                |
-                p.mb-0 Con el paso del tiempo surgen nuevos órganos como #[b las flores], la planta alcanza el desarrollo reproductivo y seguidamente las flores se van transformando en frutos.
+                | Con el paso del tiempo surgen nuevos órganos como #[b las flores], la planta alcanza el desarrollo reproductivo y seguidamente las flores se van transformando en frutos.
               li 
                 .lista-ol--cuadro__vineta
                   span(style="color: #12263F")  4
-                |
-                p.mb-0 Después llega a la senescencia donde puede llegar a ocurrir la pérdida de hojas, flores y frutos e inclusive la muerte. (Carmona, y González, 2016).
+                | Después llega a la senescencia donde puede llegar a ocurrir la pérdida de hojas, flores y frutos e inclusive la muerte. (Carmona, y González, 2016).
     p Sin embargo, es importante resaltar, que existen gran variedad de hábitos y formas de crecimiento, debido a la amplia gama de especies y condiciones ambientales, por ejemplo, al comparar las hojas del mismo árbol estas pueden tener una constitución, forma, tamaño, color y composición diferente, producto de que éstas se desarrollan en ambientes (grado de iluminación) diferentes. #[span.txt-c1 Por tanto, las plantas están en constante y permanente desarrollo y adaptación al entorno y hábitat.]
     Separador
     #t_1_1
