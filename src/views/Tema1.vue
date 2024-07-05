@@ -66,8 +66,7 @@
               li.d-flex
                 .lista-ol--cuadro__vineta
                   span(style="color: #12263F")  4
-                |
-                p.mb-0 Después llega a la senescencia donde puede llegar a ocurrir la pérdida de hojas, flores y frutos e inclusive la muerte. (Carmona, y González, 2016).
+                | Después llega a la senescencia donde puede llegar a ocurrir la pérdida de hojas, flores y frutos e inclusive la muerte. (Carmona, y González, 2016).
     p Sin embargo, es importante resaltar, que existen gran variedad de hábitos y formas de crecimiento, debido a la amplia gama de especies y condiciones ambientales, por ejemplo, al comparar las hojas del mismo árbol estas pueden tener una constitución, forma, tamaño, color y composición diferente, producto de que éstas se desarrollan en ambientes (grado de iluminación) diferentes. #[span.txt-c1 Por tanto, las plantas están en constante y permanente desarrollo y adaptación al entorno y hábitat.]
     Separador
     #t_1_1
@@ -233,7 +232,7 @@
         .row.justify-content-center.mb-5(data-aos="fade-up")
           .col-lg-8
             figure
-              img(src='@/assets/curso/tema1/img16.svg' alt='Muestra el crecimiento de una plata.' style="width: 1100px").m-auto
+              img(src='@/assets/curso/tema1/img16.svg' alt='Muestra el crecimiento de una planta.' style="width: 1100px").m-auto
     .row.bg-c4(data-aos="fade-right")
       .col-12.p-5
         .row.justify-content-center.align-items-center

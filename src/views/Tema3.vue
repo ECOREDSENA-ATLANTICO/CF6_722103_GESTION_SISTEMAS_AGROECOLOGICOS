@@ -356,7 +356,7 @@
     #t_3_2
     .titulo-segundo.color-acento-contenido
       h2 3.2 Equipos y herramientas
-    p.mb-5 Para el desarrollo de las labores culturales se requieren de diversas herramientas, equipos y utensilios de distintas formas y tamaños que facilitan la realización de las actividades, por ejemplo, las más comunes y utilizadas se pueden ver en el siguiente recurso:
+    p.mb-5 Para el desarrollo de las labores culturales se requieren de diversas herramientas, equipos y utensilios de distintas formas y tamaños que facilitan la realización de las actividades, por ejemplo, las más comunes y utilizadas se pueden detallar en el siguiente recurso:
     .row.align-items-center.mb-4
       .col-auto
         figure

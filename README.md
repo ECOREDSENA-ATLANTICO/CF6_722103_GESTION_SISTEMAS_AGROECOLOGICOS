@@ -1,8 +1,8 @@
-# **Planificación del manejo cultural en el agroecosistema**
+# **CF6_722103_GESTION_SISTEMAS_AGROECOLOGICOS**
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/CF6_722103_GESTION_SISTEMAS_AGROECOLOGICOS/](https://ecored-sena.github.io/CF6_722103_GESTION_SISTEMAS_AGROECOLOGICOS/)
+[https://ecoredsena-atlantico.github.io/CF6_722103_GESTION_SISTEMAS_AGROECOLOGICOS](https://ecoredsena-atlantico.github.io/CF6_722103_GESTION_SISTEMAS_AGROECOLOGICOS)
 
 #
 
