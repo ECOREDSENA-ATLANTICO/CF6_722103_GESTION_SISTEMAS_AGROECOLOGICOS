@@ -13,22 +13,22 @@
       .col-lg-8
         p La fisiología vegetal es la ciencia que se encarga de comprender el desarrollo y comportamiento de las plantas mediante el estudio del funcionamiento, procesos y funciones vitales que se llevan a cabo a lo largo de su ciclo de vida, específicamente responde el interrogante: #[span.txt-c1 ¿Qué es lo que mantiene vivas las plantas?]
         .cajon.color-primario.p-4.mb-4
-          p.mb-0 La fisiología  vegetal desarrollo que está enfocado al crecimiento, desarrollo, reproducción y fisiología del metabolismo que abarca las transformaciones químicas y físicas que se dan en los órganos y células de las plantas.
-        p Las plantas al igual que todos los seres vivos, cumplen un ciclo de vida en el cual realizan consecutivamente una serie de procesos y estados, los cuales desde el punto de vista fisiológico se puede identificar y son comúnmente conocidos como fase juvenil, maduro o adulto y senescente.
+          p.mb-0 La fisiología vegetal, desarrollo que está enfocado al crecimiento, desarrollo, reproducción y fisiología del metabolismo que abarca las transformaciones químicas y físicas que se dan en los órganos y células de las plantas.
+        p Las plantas, al igual que todos los seres vivos, cumplen un ciclo de vida en el cual realizan consecutivamente una serie de procesos y estados, los cuales desde el punto de vista fisiológico se puede identificar y son comúnmente conocidos como fase juvenil, maduro o adulto y senescente.
     .row.justify-content-center.mb-5(data-aos="fade-up")
       .col-8.col-md-6.col-xl-3.mb-4.mb-xl-0
         .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .tarjeta-slide__contenedor
             .tarjeta-slide__contenido.p-4.p-xl-5
-              p.mb-0 Esta etapa se caracteriza por la presencia de procesos de crecimiento y desarrollo vegetativo. Inicia con la germinación y finaliza en el momento en que la planta es apta para iniciar los procesos de tipo reproductivo (aunque éstos no se dan). La duración del período juvenil es muy variable: desde unos pocos días o semanas, en las plantas herbáceas, hasta varios años en las plantas leñosas.
+              p.mb-0 Esta etapa se caracteriza por la presencia de procesos de crecimiento y desarrollo vegetativo. Inicia con la germinación y finaliza en el momento en que la planta es apta para iniciar los procesos de tipo reproductivo (aunque estos no se dan). La duración del período juvenil es muy variable: desde unos pocos días o semanas, en las plantas herbáceas, hasta varios años en las plantas leñosas.
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img1.svg')})`}")
       .col-8.col-md-6.col-xl-3.mb-4.mb-xl-0
         .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .tarjeta-slide__contenedor
             .tarjeta-slide__contenido.p-4.p-xl-5
-              p.mb-0 Es el período en el que la planta es capaz de florecer si se dan las condiciones para ello. Es decir que haya florecido al recibir el estímulo adecuado. También, en esta fase se origina un cambio drástico relacionado con la transición de meristemo vegetativo a reproductivo.
+              p.mb-0 Es el período en el que la planta es capaz de florecer si se dan las condiciones para ello. Es decir, que haya florecido al recibir el estímulo adecuado. También, en esta fase se origina un cambio drástico relacionado con la transición de meristemo vegetativo a reproductivo.
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img2.svg')})`}")
       .col-8.col-md-6.col-xl-3
         .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
@@ -48,22 +48,22 @@
               img(src='@/assets/curso/tema1/img3.png' style="width: 450px" alt='Imagen Decorativa').m-auto
           .col-lg-7
             ol.lista-ol--cuadro.lista-ol--separador.mb-0
-              li 
+              li.d-flex
                 .lista-ol--cuadro__vineta
                   span(style="color: #12263F") 1
                 | 
-                p.mb-0 La #[b fecundación], es decir con la embriogénesis que radica #[b en la germinación de semillas] y la formación básica del #[b sistema radicular].
-              li 
+                p.mb-0 La #[b fecundación], es decir, con la embriogénesis que radica #[b en la germinación de semillas] y la formación básica del #[b sistema radicular].
+              li.d-flex
                 .lista-ol--cuadro__vineta
                   span(style="color: #12263F")  2
                 | 
                 p.mb-0 Mediante procesos metabólicos como la #[b fotosíntesis, transpiración y respiración] se da el proceso de construcción de las plantas mediante la aparición de órganos vegetativos como #[b la raíz, tallo y hojas], los cuales rápidamente crecen y ganan altura y grosor.
-              li 
+              li.d-flex
                 .lista-ol--cuadro__vineta
                   span(style="color: #12263F")  3
                 |
                 p.mb-0 Con el paso del tiempo surgen nuevos órganos como #[b las flores], la planta alcanza el desarrollo reproductivo y seguidamente las flores se van transformando en frutos.
-              li 
+              li.d-flex
                 .lista-ol--cuadro__vineta
                   span(style="color: #12263F")  4
                 |
@@ -172,11 +172,16 @@
       .col-auto.p-0
         h3.mb-0 Flor
     p.mb-5 La flor es la estructura reproductiva de las plantas, su función se basa en la producción de semillas, está compuesta por cuatro partes fundamentales que son #[b corola, cáliz, estambres y pistilo]. En la siguiente infografía se pueden observar las partes de la flor y las diferentes clases:
+    
+    
+    
     .row.bg-c10(data-aos="fade-down")
       .col-12.p-5
         .row.justify-content-center.mb-5
           .col-lg-8.mb-5
-            h4.text-center.txt-c1.mb-4 Partes de la flor
+   
+            .col-lg-8.mx-auto
+              h4.text-center.txt-c1.mb-4 Partes de la flor
             figure
               img(src='@/assets/curso/tema1/img10.svg' alt='Muestra una flor con sus partes: estambre (antera y filamento), pistilo (estigma, estilo, ovario y óvulo), pétalo-corola, cáliz, pendúculo y sépalo.' style="width: 850px").m-auto
           .col-lg-8
@@ -193,7 +198,7 @@
     .row.justify-content-center(data-aos="fade-left")
       .col-lg-10
         .titulo-sexto.color-acento-contenido.mb-4
-          p.mb-0 #[b Figura 7]. Partes del  fruto
+          p.mb-0 #[b Figura 8]. Partes del  fruto
         figure
           img(src='@/assets/curso/tema1/img10.png' alt='Muestra las partes del fruto: semilla, endospermo, embrión y tegumento. Pericarpio: endocarpio, mesocarpio, epicarpio.' style="width: 1420px").m-auto
     Separador

@@ -230,7 +230,7 @@
             figure
               img(src='@/assets/curso/tema3/img19.svg' alt='Imagen Decorativa' style="width: 80px").m-auto
           .col
-            p.mb-0 #[b Los costos de construcción y operación.]
+            p.mb-0 #[b Los costos de construcción y operación]
     p.mb-5 Por tanto, para lograr que el agua sea empleada de manera eficiente y racional en el riego, es necesario evaluar el por qué (beneficio se obtiene), cuánto (durante que tiempo, frecuencia, número de veces), cuándo (con qué frecuencia) y cómo regar (de qué forma). En relación con la frecuencia con que se debe realizar esta práctica cultural para lograr conseguir un adecuado rendimiento del cultivo no sólo en términos de cantidad, sino que también de calidad, existen diversos factores que influyen como son el tipo de cultivo, el estado vegetativo, las condiciones climáticas, la disponibilidad de agua y capacidad de retención y almacenamiento de agua en el suelo.
     .row.align-items-center.mb-4
       .col-auto
@@ -248,7 +248,7 @@
         ul.lista-ul
           li 
             i.fas.fa-leaf(style="color: #FFA686")
-            | Conocimiento que se tenga del arvense, es decir de su biología, morfología, modo de desarrollo, forma de reproducción, comportamiento, medios de difusión, etc.
+            | Conocimiento que se tenga del arvense, es decir, de su biología, morfología, modo de desarrollo, forma de reproducción, comportamiento, medios de difusión, etc.
           li 
             i.fas.fa-leaf(style="color: #FFA686")
             | Cantidad y especies de arvenses que haya en el cultivo, el estado de cultivo y la capacidad económica del agricultor.
