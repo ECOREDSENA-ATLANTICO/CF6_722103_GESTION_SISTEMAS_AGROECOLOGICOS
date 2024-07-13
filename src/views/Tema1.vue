@@ -71,7 +71,53 @@
     Separador
     #t_1_1
     .titulo-segundo.color-acento-contenido
-      h2 1.1 Arquitectura de la planta
+      h2 1.1 Desarrollo vegetativo
+    .row.align-items-center.mb-5
+      .col-lg-auto.mb-4.mb-lg-0
+        figure
+          img(src='@/assets/curso/tema1/img13.svg' alt='Imagen Decorativa' style="width: 160px").m-auto
+      .col-lg
+        p Las plantas a lo largo de sus vidas transcurren por un conjunto de eventos que tienen características y necesidades diferentes, entre las que se encuentran el desarrollo vegetativo, que es el proceso de construcción de las mismas, esta etapa de desarrollo aporta a la sucesiva creación del cuerpo de la planta, adaptación a su entorno y le enseña y prepara para conseguir su sustento y reproducirse. 
+        p El desarrollo se da a través de una operación organizada que requiere un gran número de señales y abarca específicamente dos procesos esenciales de las plantas, que son #[span.txt-c1 el crecimiento, y la diferenciación]. Estos procesos consisten:
+    .row.justify-content-center.mb-5
+      .col-10.col-md-7.col-lg-4.mb-5.mb-lg-0(data-aos="fade-right")
+        .tarjeta-avatar
+          img(src='@/assets/curso/tema1/img14.svg' alt='Imagen Decorativa')
+          .tarjeta.color-secundario
+            .p-4
+              h5.text-center El crecimiento
+              p Hace referencia al conjunto de cambios cuantitativos que se dan de forma gradual y progresiva en lo concerniente al tamaño.
+      .col-10.col-md-7.col-lg-4(data-aos="fade-left")
+        .tarjeta-avatar
+          img(src='@/assets/curso/tema1/img15.svg' alt='Imagen Decorativa')
+          .tarjeta.color-secundario
+            .p-4
+              h5.text-center La diferenciación
+              p Los cambios son de tipo cualitativo relacionados con la estructura y función; pero, en conclusión, estos permiten la transformación de un zigoto en una planta completa capaz de reproducirse.
+    .row.bg-c10
+      .col-12.p-5
+        p.mb-5 #[span.txt-c2 Durante el crecimiento la planta incrementa de forma irreversible su tamaño y volumen, producto del alargamiento o expansión celular, pero para que la planta no solo crezca, sino que también alcance su desarrollo se requiere que las células se especialicen, lo que genera cambios denominados diferenciación.]
+        .row.justify-content-center.mb-5(data-aos="fade-up")
+          .col-lg-8
+            figure
+              img(src='@/assets/curso/tema1/img16.svg' alt='Muestra el crecimiento de una planta.' style="width: 1100px").m-auto
+    .row.bg-c4(data-aos="fade-right")
+      .col-12.p-5
+        .row.justify-content-center.align-items-center
+          .col-lg-6
+            p Pero, el proceso de desarrollo a pesar de ser una operación organizada cuenta con gran variedad de formas y hábitos de crecimiento, producto de la gran  variedad de especies existentes y los cambios en las condiciones ambientales, lo que conlleva a que las plantas deben garantizar durante todo su crecimiento la obtención en cantidades apropiadas de materia y energía, por tanto, requieren de una evolución constante y adaptación de diferentes partes de la planta, como son las raíces, el tallo y las hojas que emplean de forma directa la energía luminosa.
+          .col-lg-4
+            figure
+              img(src='@/assets/curso/tema1/img18.svg' alt='Imagen Decorativa' style="width: 350px").m-auto
+          .col-12
+            figure.fig-p1
+              img(src='@/assets/curso/tema1/img19.svg' alt='Imagen Decorativa')
+            p En conclusión, el desarrollo de las plantas se caracteriza por el crecimiento a lo largo de toda su existencia y la construcción de su forma y arquitectura, debido a que, al finalizar la formación del embrión en la semilla, tras la germinación nace una plántula con tallo y raíz, la cual mediante un grupo de células inicia el crecimiento de la parte aérea de la planta.
+
+    Separador
+    #t_1_2
+    .titulo-segundo.color-acento-contenido
+      h2 1.2 Arquitectura de la planta
     .row.bg-c3.mb-5
       .col-12.px-5
         p.mb-5 El cuerpo de las plantas como lo indica Chuncho y Aguirre, (2019) cuenta con dos sistemas de órganos denominados #[span.txt-c1 sistema subterráneo o radicular] el cual incluye las #[span.txt-c1 raíces, bulbos, rizomas, tubérculos] y en general todo lo que se encuentra por debajo del suelo y el sistema aéreo o vástago que corresponde a la parte de la planta que va por encima del suelo y comprende órganos como #[span.txt-c1 tallo, hojas, flores y frutos].
@@ -200,51 +246,7 @@
           p.mb-0 #[b Figura 8]. Partes del  fruto
         figure
           img(src='@/assets/curso/tema1/img10.png' alt='Muestra las partes del fruto: semilla, endospermo, embrión y tegumento. Pericarpio: endocarpio, mesocarpio, epicarpio.' style="width: 1420px").m-auto
-    Separador
-    #t_1_2
-    .titulo-segundo.color-acento-contenido
-      h2 1.2 Desarrollo vegetativo
-    .row.align-items-center.mb-5
-      .col-lg-auto.mb-4.mb-lg-0
-        figure
-          img(src='@/assets/curso/tema1/img13.svg' alt='Imagen Decorativa' style="width: 160px").m-auto
-      .col-lg
-        p Las plantas a lo largo de sus vidas transcurren por un conjunto de eventos que tienen características y necesidades diferentes, entre las que se encuentran el desarrollo vegetativo, que es el proceso de construcción de las mismas, esta etapa de desarrollo aporta a la sucesiva creación del cuerpo de la planta, adaptación a su entorno y le enseña y prepara para conseguir su sustento y reproducirse. 
-        p El desarrollo se da a través de una operación organizada que requiere un gran número de señales y abarca específicamente dos procesos esenciales de las plantas, que son #[span.txt-c1 el crecimiento, y la diferenciación]. Estos procesos consisten:
-    .row.justify-content-center.mb-5
-      .col-10.col-md-7.col-lg-4.mb-5.mb-lg-0(data-aos="fade-right")
-        .tarjeta-avatar
-          img(src='@/assets/curso/tema1/img14.svg' alt='Imagen Decorativa')
-          .tarjeta.color-secundario
-            .p-4
-              h5.text-center El crecimiento
-              p Hace referencia al conjunto de cambios cuantitativos que se dan de forma gradual y progresiva en lo concerniente al tamaño.
-      .col-10.col-md-7.col-lg-4(data-aos="fade-left")
-        .tarjeta-avatar
-          img(src='@/assets/curso/tema1/img15.svg' alt='Imagen Decorativa')
-          .tarjeta.color-secundario
-            .p-4
-              h5.text-center La diferenciación
-              p Los cambios son de tipo cualitativo relacionados con la estructura y función; pero, en conclusión, estos permiten la transformación de un zigoto en una planta completa capaz de reproducirse.
-    .row.bg-c10
-      .col-12.p-5
-        p.mb-5 #[span.txt-c2 Durante el crecimiento la planta incrementa de forma irreversible su tamaño y volumen, producto del alargamiento o expansión celular, pero para que la planta no solo crezca, sino que también alcance su desarrollo se requiere que las células se especialicen, lo que genera cambios denominados diferenciación.]
-        .row.justify-content-center.mb-5(data-aos="fade-up")
-          .col-lg-8
-            figure
-              img(src='@/assets/curso/tema1/img16.svg' alt='Muestra el crecimiento de una planta.' style="width: 1100px").m-auto
-    .row.bg-c4(data-aos="fade-right")
-      .col-12.p-5
-        .row.justify-content-center.align-items-center
-          .col-lg-6
-            p Pero, el proceso de desarrollo a pesar de ser una operación organizada cuenta con gran variedad de formas y hábitos de crecimiento, producto de la gran  variedad de especies existentes y los cambios en las condiciones ambientales, lo que conlleva a que las plantas deben garantizar durante todo su crecimiento la obtención en cantidades apropiadas de materia y energía, por tanto, requieren de una evolución constante y adaptación de diferentes partes de la planta, como son las raíces, el tallo y las hojas que emplean de forma directa la energía luminosa.
-          .col-lg-4
-            figure
-              img(src='@/assets/curso/tema1/img18.svg' alt='Imagen Decorativa' style="width: 350px").m-auto
-          .col-12
-            figure.fig-p1
-              img(src='@/assets/curso/tema1/img19.svg' alt='Imagen Decorativa')
-            p En conclusión, el desarrollo de las plantas se caracteriza por el crecimiento a lo largo de toda su existencia y la construcción de su forma y arquitectura, debido a que, al finalizar la formación del embrión en la semilla, tras la germinación nace una plántula con tallo y raíz, la cual mediante un grupo de células inicia el crecimiento de la parte aérea de la planta.
+    
     Separador
     #t_1_3
     .titulo-segundo.color-acento-contenido

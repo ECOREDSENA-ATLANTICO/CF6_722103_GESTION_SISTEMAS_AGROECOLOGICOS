@@ -40,13 +40,13 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Arquitectura de la planta',
+            titulo: 'Desarrollo vegetativo',
             hash: 't_1_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: 'Desarrollo vegetativo',
+            titulo: 'Arquitectura de la planta',
             hash: 't_1_2',
           },
           {
