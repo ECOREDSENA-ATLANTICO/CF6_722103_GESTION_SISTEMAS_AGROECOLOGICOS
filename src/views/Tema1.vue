@@ -230,7 +230,7 @@
               img(src='@/assets/curso/tema1/img10.svg' alt='Muestra una flor con sus partes: estambre (antera y filamento), pistilo (estigma, estilo, ovario y óvulo), pétalo-corola, cáliz, pendúculo y sépalo.' style="width: 850px").m-auto
           .col-lg-8
             .titulo-sexto.color-acento-contenido.mb-4
-              p.mb-0 #[b Figura 8]. Clasificación
+              p.mb-0 #[b Figura 8]. Partes de la flor
             figure
               img(src='@/assets/curso/tema1/img9.png' alt='Muestra la imagen de flores completas: corola, cáliz, estambre y pistilo. La presencia de órganos sexuales hermafrodita, estériles, unisexual masculina (solo estambres y unisexual femenina (solo carpelos). Forma de su corola, dialipétalos (pétalos separados) gamopétalos (pétalos unidos) - Los pétalos: asépalas, díasépalas y gamosépalas. Número de carpelos: unicarpelar y pluricarperal.' style="width: 850px").m-auto
     .row.align-items-center.mb-4

@@ -257,7 +257,7 @@ export default {
       referencia:
         'Azcón, J., y Talón, M. (2008). <em>Fundamentos de fisiología vegetal (No. 581.1)</em>. McGraw-Hill Interamericana. ',
       link:
-        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/50269/',
+        'https://exa.unne.edu.ar/biologia/fisiologia.vegetal/FundamentosdeFisiologiaVegetal2008Azcon..pdf',
     },
     {
       referencia:
