@@ -156,6 +156,8 @@
       .col-12.px-5
         .row.justify-content-center.mb-5
           .col-lg-8
+            .titulo-sexto.color-acento-contenido.mb-4
+              p.mb-0 #[b Figura 10]. Existen diversos tipos de aporque, entre los que se encuentran:
             figure
               img(src='@/assets/curso/tema3/img14.svg' alt='Muestra dos tipos de apoque, el mecanizadoque se utilizan los equipos enganchados a un tractor. Manual, es el proceso que se realiza empleando herramientas menores, es decir implementos de mano como rastrillo o escardillas.' style="width: 850px").m-auto
     .row.align-items-center.mb-4
@@ -272,7 +274,7 @@
       .col-12.p-5
         p.text-center.mb-5 Existen diferentes tipos de podas y distintos criterios para clasificar, según sea su objetivo están:
         .titulo-sexto.color-acento-contenido.mb-5
-          p.mb-0 #[b Figura 8]. Tipos de poda
+          p.mb-0 #[b Figura 11]. Tipos de poda
         figure
           img(src='@/assets/curso/tema3/img20.svg' alt='Muestra un mapa conceptual con los tipos de poda: Formación, que contienen el mantenimiento, la producción y el rejuveneciendo o regeneración. En función a los órganos eliminados, que contiene, hojas, flores, frutos, yemas, brotes terminales y tallo. Tipos de corte, que contiene despunte o rebaje y clareo o aleo. Época del año, contiene seco o invierno y verde o verano. Por último, la forma de efectuar, que contienen manual, mecánica y química.' style="width: 1150px").m-auto
     .row.mb-5
@@ -348,7 +350,7 @@
           img(src='@/assets/curso/tema3/img23.svg' style="width: 350px").m-auto
     p.mb-5 El uso de estos agroquímicos puede ser reemplazado por productos orgánicos que cada día son más empleados ya que son menos nocivos para la salud y el medio ambiente.
     .titulo-sexto.color-acento-contenido.mb-4
-      p.mb-0 #[b Figura 9]. Plagas que atacan raíces, tallos, hojas, flores y frutos de las plantas
+      p.mb-0 #[b Figura 12]. Plagas que atacan raíces, tallos, hojas, flores y frutos de las plantas
     figure(data-aos="fade-up")
       img(src='@/assets/curso/tema3/img13.png' alt='Muestra una planta y diferentes plagas que atacan raíces, tallos, flores y frutos de las plantas.')
       figcaption Nota. MINEP. (2005). Manejo agronómico de los cultivos.

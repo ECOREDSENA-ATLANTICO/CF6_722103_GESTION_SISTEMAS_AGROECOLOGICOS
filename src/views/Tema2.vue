@@ -150,7 +150,7 @@
           .col-lg-6
             figure
               img(src='@/assets/curso/tema2/img10.png' alt='Imagen Decorativa' style="width: 550px").m-auto
-    p.mb-5 Holm et al. 1977., citado por Labrada, R., Caseley, J. C., y Parker, C. (1996), determinó cuáles son los 18 arvenses o malezas más importantes a nivel mundial, es decir que ocasionan más daños y generan gastos para su control, desde el punto de vista del hábitat o de las áreas afectadas, debido a que estas son difíciles de clasificar de acuerdo con criterios botánicos como la morfología, fenología y taxonomía.
+    p.mb-5 Holm et al. 1977, citado por Labrada, R., Caseley, J. C., y Parker, C. (1996), determinó cuáles son los 18 arvenses o malezas más importantes a nivel mundial, es decir que ocasionan más daños y generan gastos para su control, desde el punto de vista del hábitat o de las áreas afectadas, debido a que estas son difíciles de clasificar de acuerdo con criterios botánicos como la morfología, fenología y taxonomía.
     .row.justify-content-center(data-aos="fade-left")
       .col-lg-9
         .titulo-sexto.color-acento-contenido.mb-5

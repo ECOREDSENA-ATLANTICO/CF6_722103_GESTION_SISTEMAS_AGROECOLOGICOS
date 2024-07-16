@@ -223,14 +223,14 @@
     .row.bg-c10(data-aos="fade-down")
       .col-12.p-5
         .row.justify-content-center.mb-5
-          .col-lg-8.mb-5
-   
-            .col-lg-8.mx-auto
-              h4.text-center.txt-c1.mb-4 Partes de la flor
+          .col-lg-8.mb-5   
+            .titulo-sexto.color-acento-contenido.mb-4
+              p.mb-0 #[b Figura 7]. Partes de la flor
             figure
               img(src='@/assets/curso/tema1/img10.svg' alt='Muestra una flor con sus partes: estambre (antera y filamento), pistilo (estigma, estilo, ovario y óvulo), pétalo-corola, cáliz, pendúculo y sépalo.' style="width: 850px").m-auto
           .col-lg-8
-            h4.text-center.txt-c1.mb-4 Clasificación
+            .titulo-sexto.color-acento-contenido.mb-4
+              p.mb-0 #[b Figura 8]. Clasificación
             figure
               img(src='@/assets/curso/tema1/img9.png' alt='Muestra la imagen de flores completas: corola, cáliz, estambre y pistilo. La presencia de órganos sexuales hermafrodita, estériles, unisexual masculina (solo estambres y unisexual femenina (solo carpelos). Forma de su corola, dialipétalos (pétalos separados) gamopétalos (pétalos unidos) - Los pétalos: asépalas, díasépalas y gamosépalas. Número de carpelos: unicarpelar y pluricarperal.' style="width: 850px").m-auto
     .row.align-items-center.mb-4
@@ -243,7 +243,7 @@
     .row.justify-content-center(data-aos="fade-left")
       .col-lg-10
         .titulo-sexto.color-acento-contenido.mb-4
-          p.mb-0 #[b Figura 8]. Partes del  fruto
+          p.mb-0 #[b Figura 9]. Partes del  fruto
         figure
           img(src='@/assets/curso/tema1/img10.png' alt='Muestra las partes del fruto: semilla, endospermo, embrión y tegumento. Pericarpio: endocarpio, mesocarpio, epicarpio.' style="width: 1420px").m-auto
     
